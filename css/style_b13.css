@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'TT Lakes Medium'; 
-	src: url(/fonts/TTLakes-Medium.woff); 
+	src: url(fonts/TTLakes-Medium.woff); 
 }
 
 @font-face {
@@ -103,7 +103,7 @@
 }
 
 .main-logo {
-   background-image: url(/images/GPS_logo.svg);   
+   background-image: url(images/GPS_logo.svg);   
 }
 
 .main-logo_size_s {
