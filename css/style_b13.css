@@ -24,7 +24,7 @@
 }
 
 *:focus {
-   outline:  2px solid rgb(212, 212, 212);
+   outline:  1px solid rgb(212, 212, 212);
 }
 
 .main {
@@ -143,6 +143,7 @@
    display: flex;
    position: relative;
    overflow: hidden;
+   padding:1px;
 
 }
 
