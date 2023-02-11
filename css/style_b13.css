@@ -16,6 +16,7 @@
 .body_geometry {
    box-sizing: border-box;
    margin:0;
+   background-color: rgba(248, 248, 248, 1);
 }
 
 *, *:before, *:after {
@@ -36,6 +37,7 @@
    justify-content: space-between;
    align-items: center;
    box-shadow: inset 0 -1px rgba(217, 255, 245, 1);
+   background-color: white;
 }
 
 .nav-icon_size_s {
