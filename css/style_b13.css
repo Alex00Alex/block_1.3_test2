@@ -142,6 +142,7 @@
    margin-top: 24px;
    display: flex;
    position: relative;
+   overflow: hidden;
 
 }
 
@@ -370,11 +371,11 @@
  @media (max-width: 1105px){
    .nav-roll__wrapper_options_length {
       width: 100%;
-      overflow-x: hidden;
+      overflow-x: scroll;
       padding-bottom: 20px;
       margin-bottom: -20px;
       flex-wrap: nowrap;
-      height: 60px;
+      height: 80px;
    }
 }
  @media (max-width: 1100px){
