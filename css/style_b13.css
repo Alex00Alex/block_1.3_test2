@@ -143,13 +143,14 @@
    display: flex;
    position: relative;
    overflow: hidden;
-   padding:2px;
+   
 
 }
 
 .nav-roll__wrapper_options_length {
    display: flex;
    flex-wrap: wrap;  
+   padding:2px;
 }
 
 .nav-roll_size_l::after{
