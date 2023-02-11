@@ -213,9 +213,8 @@
 }
 
 .arrow-button_padding{
-   margin-top: 16px;
    margin-bottom: 16px;
-   margin-left: 48px;
+   margin-left: 40px;
 }
 
 .arrow-button::before {
@@ -283,6 +282,10 @@
   .text_paragraf_2 {
    display: none;
   }
+  .arrow-button_padding{
+   margin-left: 33px;
+   margin-top: 12px;
+}
 }
 
  @media (min-width: 570px) and (max-width: 784.80px) {
@@ -323,6 +326,7 @@
    }
    .arrow-button_padding{
       margin-left: 33px;
+      margin-top: 16px;
    }
    .nav-roll__txt-button_hidden_l {
       display: none;
