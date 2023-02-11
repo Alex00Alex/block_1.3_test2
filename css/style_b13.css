@@ -16,7 +16,6 @@
 .body_geometry {
    box-sizing: border-box;
    margin:0;
-   background-color: rgba(248, 248, 248, 1);
 }
 
 *, *:before, *:after {
