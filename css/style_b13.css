@@ -241,6 +241,10 @@
    margin-top: 10px;
 }
 
+.header-seoh3, .header-seoh2 {  
+   font-size: 0px;
+}
+
 @media (max-width: 569.80px) {
    .nav-icon__middle-wrapper_size_s {
       display: none;
