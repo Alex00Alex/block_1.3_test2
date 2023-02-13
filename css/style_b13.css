@@ -243,12 +243,9 @@
 
 .header-seoh3, .header-seoh2 {  
    font-size: 0px;
-	color:red;
 }
 
-.header-seoh3 {  
-   color:red;
-}
+
 
 @media (max-width: 569.80px) {
    .nav-icon__middle-wrapper_size_s {
