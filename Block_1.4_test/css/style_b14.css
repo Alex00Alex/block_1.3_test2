@@ -1,0 +1,232 @@
+.body_geometry {
+   min-width: 320px;
+   max-width: 320px;
+}
+
+.body_geometry {
+   box-sizing: border-box;
+   margin:0;
+   background-color: rgba(248, 248, 248, 1);
+   /* background-color: rgb(255, 0, 0); */
+}
+
+@font-face {
+	font-family: 'TT Lakes Medium'; 
+	src: url(/fonts/TTLakes-Medium.woff); 
+}
+
+@font-face {
+	font-family: 'TT Lakes Bold'; 
+	src: url(/fonts/TTLakes-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'TT Lakes Regular'; 
+	src: url(/fonts/TTLakes-Regular.woff); 
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+*:focus {
+   outline:  1px solid rgb(212, 212, 212);
+}
+
+.main {
+   width: 100%;
+   background-color: rgba(248, 248, 248, 1);
+}
+
+.nav-icon{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+}
+
+.nav-icon_size_s {
+   padding: 18.59px 8px 18.59px 16px;
+}
+
+.nav-icon__right-wrapper_size_s{
+   display: flex;
+}
+
+.icon-button:hover, .nav-roll__txt-button:hover {  
+   cursor: pointer;
+   opacity: 0.8;
+   transform: rotate(35deg);
+
+}
+.icon-button {
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  transition: transform 0.3s ease-out;
+}
+
+.icon-button_geometry {
+   margin: 0 8px;
+}
+
+.icon-button__logo {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%; 
+}
+
+.icon-button__logo_theme_burger {
+   background-image: url(/images/menu_icons/burger_x.png);
+}
+
+.icon-button__logo_theme_repair {
+   background-image: url(/images/menu_icons/repair.png);
+}
+
+.icon-button__logo_theme_checkstatus {
+   background-image: url(/images/menu_icons/checkstatus.png);
+}
+
+.icon-button__logo_theme_call {
+   background-image: url(/images/menu_icons/call.png);
+}
+
+.icon-button__logo_theme_chat {
+   background-image: url(/images/menu_icons/chat.png);
+}
+
+.icon-button__logo_theme_profile {
+   background-image: url(/images/menu_icons/profile.png);
+}
+
+.main-logo {
+   background-image: url(/images/GPS_logo.svg);   
+}
+
+.main-logo_size_s {
+   margin-left:8.7px;
+   min-width: 96.55px;
+   height: 50.81px;
+}
+
+.vertical-menu_theme_white {
+   background-color: white;
+   height: 100vh;
+   box-shadow: 16px 0 52px 0px rgba(14, 24, 80, 0.2);
+   display: flex;
+   flex-direction: column;
+}
+
+.nav-icon__left-wrapper_size_s {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 50%;
+   max-width: 165.6px;
+}
+
+.vertical-menu__txt-menu {
+
+   list-style:none;
+   font-family: "TT Lakes Medium"; 
+   line-height: 50px;
+   font-size: 16px;
+   padding-left: 24px;
+
+}
+
+.vertical-menu__punkt_enable::before{
+   content:"";
+   border: 2px solid #41F6D7;
+   border-radius: 0 100px 100px 0;
+   position: absolute;
+   height: 32px;
+   left: -24px;  
+  }
+
+  .vertical-menu__punkt_enable { 
+   position: relative;
+   display: flex;
+   align-items: center;
+  }
+
+.vertical-menu__icons-row {
+   display:flex; 
+   margin-left:-8px;
+}
+
+.vertical-menu__contacts-section_geometry {
+   margin-top:auto;
+   padding: 24px;
+}
+
+
+.vertical-menu__mail-link_style {
+   text-decoration: none;
+   color:rgba(27, 28, 33, 1);
+   font-family: "TT Lakes Medium";
+   font-style:normal;
+   font-size: 16px; 
+}
+
+.vertical-menu__mail_geometry {
+   margin-top: 16px;
+}
+
+.vertical-menu__phone_geometry {
+   margin-top: 12px;
+}
+
+.vertical-menu__phone-link_style {
+   text-decoration: none;
+   color:rgba(27, 28, 33, 1);
+   font-family: "TT Lakes Bold";
+   font-style:normal;
+   font-size: 24px; 
+}
+
+.vertical-menu__lang-controll_style{
+   margin-left:24px;
+}
+
+.lang-button {
+   background-color: rgba(255, 255, 255, 0);
+   border: none;
+   color: rgba(27, 28, 33, 1);
+   font-family: "TT Lakes Regular";
+   font-size: 16px;
+   padding: 0 7px 0 0;
+   margin-bottom: 32px;
+   transition: opacity 0.1s ease-out, scale 0.2s ease-out;
+}
+
+.lang-button:hover {
+   scale: 0.95;
+   opacity: 0.7;
+   cursor: pointer;
+}
+
+.lang-button_enable {
+   color: rgba(126, 126, 130, 0.75);
+}
+
+.vertical-menu__punkt-link {
+   text-decoration: none;
+   color:rgba(27, 28, 33, 1);
+   transition: color 0.2s;
+
+}
+
+.vertical-menu__punkt-link:hover {
+   color:rgba(27, 28, 33, 0.5);
+}
+
+.vertical-menu__punkt-link_enable {
+color:rgba(126, 126, 130, 1);
+}
+
+
+
+
