@@ -78,31 +78,31 @@
 }
 
 .icon-button__logo_theme_burger {
-   background-image: url(/images/menu_icons/burger_x.png);
+   background-image: url(../images/menu_icons/burger_x.png);
 }
 
 .icon-button__logo_theme_repair {
-   background-image: url(/images/menu_icons/repair.png);
+   background-image: url(../images/menu_icons/repair.png);
 }
 
 .icon-button__logo_theme_checkstatus {
-   background-image: url(/images/menu_icons/checkstatus.png);
+   background-image: url(../images/menu_icons/checkstatus.png);
 }
 
 .icon-button__logo_theme_call {
-   background-image: url(/images/menu_icons/call.png);
+   background-image: url(../images/menu_icons/call.png);
 }
 
 .icon-button__logo_theme_chat {
-   background-image: url(/images/menu_icons/chat.png);
+   background-image: url(../images/menu_icons/chat.png);
 }
 
 .icon-button__logo_theme_profile {
-   background-image: url(/images/menu_icons/profile.png);
+   background-image: url(../images/menu_icons/profile.png);
 }
 
 .main-logo {
-   background-image: url(/images/GPS_logo.svg);   
+   background-image: url(../images/GPS_logo.svg);   
 }
 
 .main-logo_size_s {
