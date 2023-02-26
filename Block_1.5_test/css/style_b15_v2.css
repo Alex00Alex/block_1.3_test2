@@ -7,17 +7,17 @@
 
 @font-face {
 	font-family: 'TT Lakes Medium'; 
-	src: url(/fonts/TTLakes-Medium.woff); 
+	src: url(../fonts/TTLakes-Medium.woff); 
 }
 
 @font-face {
 	font-family: 'TT Lakes Bold'; 
-	src: url(/fonts/TTLakes-Bold.woff); 
+	src: url(./fonts/TTLakes-Bold.woff); 
 }
 
 @font-face {
 	font-family: 'TT Lakes Regular'; 
-	src: url(/fonts/TTLakes-Regular.woff); 
+	src: url(../fonts/TTLakes-Regular.woff); 
 }
 
 
