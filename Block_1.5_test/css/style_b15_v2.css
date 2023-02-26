@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family: 'TT Lakes Bold'; 
-	src: url(./fonts/TTLakes-Bold.woff); 
+	src: url(../fonts/TTLakes-Bold.woff); 
 }
 
 @font-face {
@@ -51,49 +51,49 @@
 }
 
 .box__logo_lenovo {
-   background-image: url(/images/vendors/lenovo.png);
+   background-image: url(../images/vendors/lenovo.png);
    width: 108px;
    height: 32px;
 }
 
 .box__logo_Samsung{
-   background-image: url(/images/vendors/Samsung.png);
+   background-image: url(../images/vendors/Samsung.png);
    width: 116px;
    height: 38.5px;
 }
 
 .box__logo_Apple{
-   background-image: url(/images/vendors/Apple.png);
+   background-image: url(../images/vendors/Apple.png);
    width: 44px;
    height: 44px;
 }
 
 .box__logo_Viewsonic {
-   background-image: url(/images/vendors/Viewsonic.png);
+   background-image: url(../images/vendors/Viewsonic.png);
    width: 128px;
    height: 21px;
 }
 
 .box__logo_Bosch {
-   background-image: url(/images/vendors/Bosch.png);
+   background-image: url(../images/vendors/Bosch.png);
    width: 128px;
    height: 30px;
 }
 
 .box__logo_Hp {
-   background-image: url(/images/vendors/Hp.png);
+   background-image: url(../images/vendors/Hp.png);
    width: 52px;
    height: 52px;
 }
 
 .box__logo_Acer {
-   background-image: url(/images/vendors/Acer.png);
+   background-image: url(../images/vendors/Acer.png);
    width: 94px;
    height: 24px;
 }
 
 .box__logo_Sony {
-   background-image: url(/images/vendors/Sony.png);
+   background-image: url(../images/vendors/Sony.png);
    width: 128px;
    height: 26px;
 }
