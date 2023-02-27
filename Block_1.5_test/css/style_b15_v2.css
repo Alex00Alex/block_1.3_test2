@@ -194,6 +194,12 @@
    opacity: 0.5;
 }
 
+
+.swiper-pagination {
+ --swiper-pagination-color: rgb(173, 174, 179);
+ --swiper-pagination-bullet-inactive-color: rgb(153, 153, 153);
+}
+
 /*Медиа*/
 
 @media (max-width: 767px) {
